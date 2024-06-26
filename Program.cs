@@ -20,9 +20,9 @@ namespace STRINGS
       //var texto = $"O preço do produto \n é {price} apenas na promoção";
       //Console.WriteLine(texto);
 
-        var texto = "testando";
-        Console.WriteLine(texto.CompareTo("testando"));
-        
+        var texto = "este texto é um teste";
+        //Console.WriteLine(texto.CompareTo("testando")); compara as palavras e retorna um valor
+        Console.WriteLine(texto.Contains("teste")); //compara e ve se a string passada no parametro existe na string original, retorna um boolean
     }
   }  
 }
