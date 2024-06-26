@@ -7,6 +7,7 @@ namespace STRINGS
     static void Main(string [] args)
     {
         var id = Guid.NewGuid();
+        Console.WriteLine(id);
     }
   }  
 }
