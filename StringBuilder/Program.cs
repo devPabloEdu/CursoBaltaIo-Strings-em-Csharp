@@ -12,6 +12,8 @@ namespace STRINGS
         texto.Append("entao estou testando apenas");
         texto.Append("testando novamente o texto");
         texto.Append("entao estou testando apenas");
+        texto.Append("testando novamente o texto");
+        texto.Append("entao estou testando apenas");
     }
   }  
 }
