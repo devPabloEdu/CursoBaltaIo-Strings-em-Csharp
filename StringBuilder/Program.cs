@@ -10,6 +10,8 @@ namespace STRINGS
         var texto = new StringBuilder();
         texto.Append("testando novamente o texto");
         texto.Append("entao estou testando apenas");
+        texto.Append("testando novamente o texto");
+        texto.Append("entao estou testando apenas");
     }
   }  
 }
