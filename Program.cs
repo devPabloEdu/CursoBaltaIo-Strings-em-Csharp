@@ -11,6 +11,14 @@ namespace STRINGS
 
         id = new Guid("00000000000000000000000000000000 ");
         Console.WriteLine(id); //vai imprimir um hash
+
+        //interpolação de strings
+
+        var price = 10.2;
+        var texto = "o preço do produto é " + price;
+        Console.WriteLine(texto);
+
+
     }
   }  
 }
