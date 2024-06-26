@@ -7,13 +7,11 @@ namespace STRINGS
     static void Main(string [] args)
     {
 
-        //interpolação de strings
-
-        var price = 10.2;
-        var texto = "o preço do produto é " + price;
-       var texto = string.Format("o preço do produto é {0} apenas na promoção", price);
-      var texto = $"O preço do produto \n é {price} apenas na promoção";
-      Console.WriteLine(texto);
+        var texto = "este texto é um teste";
+        Console.WriteLine(texto.CompareTo("testando")); //compara as palavras e retorna um valor
+        Console.WriteLine(texto.Contains("teste")); //compara e ve se a string passada no parametro existe na string original, retorna um boolean
+       Console.WriteLine(texto.StartsWith("este"));
+      Console.WriteLine(texto.Equals("teste"));
     }
   }  
 }
